@@ -32,4 +32,6 @@ class Interaction(models.Model):
     direction = models.CharField(max_length=10, choices=DIRECTION_CHOICES)
     interaction_date = models.DateField(auto_now_add=True)
     summary = models.TextField()
+
+#next step add the models to the admin interface
     
